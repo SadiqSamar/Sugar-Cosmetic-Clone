@@ -1,0 +1,565 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+
+
+.nav{
+    background-color: black;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 30px;
+}
+.nav img{
+    height: 43px;
+    width: 180px;
+    
+}
+.sear input{
+    height: 40px;
+    width: 650px;
+    background-color: black;
+    border-radius: 10px;
+}
+input::placeholder{
+    position: relative;
+    left: 30px;
+    word-spacing: 5px;
+}
+
+.magni {
+    height: 40px;
+    background-color: white;
+    color: black;
+    width: 120px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-size: larger;
+    justify-content: space-around;
+    font-family: cursive;
+    position: relative;
+    right: 80px;
+}
+.magni a{
+    text-decoration: none;
+    color:#141414;
+}
+.log h3{
+    font-size: 20px;
+}
+.log a{
+    text-decoration: none;
+    color:white;
+}
+.icons span{
+     padding: 5px;
+}
+.icons a{
+    text-decoration: none;
+    color: white;
+}
+.navlink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:#141414;
+    height: 53px;
+}
+.navlink a{
+    text-decoration: none;
+    color: gainsboro;
+    font-family: cursive;
+    padding: 0px 20px 0px 20px;
+}
+.content1 img{
+    height: 300px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.content1{
+    background-color: whitesmoke;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 110px 100px 90px 100px;
+    background-color: black;
+    width: 100%;
+    height: 650px;
+
+}
+
+.section{
+    height: 420px;
+    width: 280px;
+    background-color:white;
+    border-radius: 10px;
+    cursor: pointer;
+       
+}
+
+.lipsticks {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+    width:100% ;
+}
+.lipsticks img{
+    height: 160px;
+    width: 160px;
+    
+}
+.text p{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+    font-family: cursive;
+
+}
+
+.shades{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px ;
+}
+.shades i{
+  color: red;
+}
+.price{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 10px 0px 0px 0px ;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0px 40px 0px 40px;
+}
+.price s{
+    font-size: smaller;
+}
+.price span{
+    font-size: smaller;
+    color: #fc2779;
+}
+.buynow{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.buynow i{
+    border: 2px solid;
+    height: 42px;
+    width: 42px;
+    border-radius: 10px;
+    padding: 12px;
+}
+.buynow button{
+    cursor: pointer;
+    height: 42px;
+    width: 210px;
+    border-radius: 6px;
+    background-color: #141414;
+    color: white;
+}
+
+.text-heading{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+    color: white;
+}
+
+.text-heading sup{
+    color:#fc2779;
+}
+
+.text-heading1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 28px;
+    color:black;
+}
+
+.text-heading1 sup{
+    color:#fc2779;
+}
+
+.banner{
+    margin: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner img{
+    border-radius: 10px;
+    height: 300px;
+    width: 1400px;
+}
+.deals{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 40px 0px 0px 0px;
+    padding: 30px 30px 0px 30px;
+
+}
+.deals img{
+    height: 270px;
+    width: 450px;
+    border-radius: 10px;
+}
+#carouselExampleCaptions{
+    margin: 30px 0px 0px 0px;
+}
+.carousel-control-prev-icon{
+    border-radius: 50%;
+    background-color: #544d50;
+}
+.carousel-control-next-icon{
+    border-radius: 50%;
+    background-color: #393235;
+}
+
+.content3{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 110px 100px 90px 100px;
+    background-color: black;
+    width: 100%;
+    height: 650px;
+    margin: 30px 0px 0px 0px;
+
+}
+
+.section1{
+    height: 420px;
+    width: 280px;
+    background-color:white;
+    border-radius: 10px;
+    cursor: pointer;
+       
+}
+
+.text1 p{
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 0px 30px 0px 30px;
+    font-family: cursive;
+
+}
+
+.price1{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px 50px 0px ;
+    font-weight: bold;
+    font-size: larger;
+    padding: 0px 40px 0px 40px;
+
+
+}
+.price1 s{
+    font-size: smaller;
+}
+.price1 span{
+    font-size: smaller;
+    color: #fc2779;
+}
+.buynow1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.buynow1 i{
+    border: 2px solid;
+    height: 42px;
+    width: 42px;
+    border-radius: 10px;
+    padding: 12px;
+}
+.buynow1 button{
+    height: 42px;
+    width: 210px;
+    border-radius: 6px;
+    background-color: #141414;
+    color: white;
+    cursor: pointer;
+}
+
+.banner1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner1 img{
+    border-radius: 10px;
+    height: 450px;
+    width: 1200px;
+    margin-top: 60px;
+}
+
+.text-heading3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    color: white;
+}
+
+.text-heading3 sup{
+    color:#fc2779;
+}
+
+.sliders img{
+    height: 300px;
+    border-radius: 5px;
+}
+.sliders{
+    margin: 60px 0px 0px 0px;
+    background-color: whitesmoke;
+}
+.choose{
+display: flex;
+justify-content: space-evenly;
+margin: 60px 0px 0px 0px;
+}
+
+.choose a img{
+    height: 400px;
+    width: 700px;
+    border-radius: 10px;
+     margin: 15px;
+}
+.merch img{
+    height: 600px;
+    width: 100%;
+}
+
+.content4{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 110px 450px 390px 450px;
+    width: 100%;
+    height: 550px;
+    background: linear-gradient(315deg, rgba(101,0,94,1) 3%, rgba(60,132,206,1) 38%, rgba(48,238,226,1) 68%, rgba(255,25,25,1) 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    /* background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRb45MyzhBRyNcM03JvnwEn0aQdmjvaY5g4Wqly1nF8JyTtM4Qw);
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.section4{
+    height: 420px;
+    width: 280px;
+    background-color:white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.explore{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0px 0px 0px;
+    
+}
+.explore img{
+    border-radius: 10px;
+    cursor: pointer;
+}
+.text-heading6{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 50px;
+    color: black;
+}
+
+.text-heading6 sup{
+    color:#fc2779;
+}
+
+.content5{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 70px 450px 390px 450px;
+    width: 100%;
+    height: 500px;
+    background: #F2F2F2;
+}
+.break{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#F2F2F2 ;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    padding: 0px 40px 0px 40px;
+    height: 50px;
+    background-color:#F2F2F2 ;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+    padding: 0px 10px 0px 10px;
+}
+.about a span{
+    font-size: 30px;
+    color: #fc2779;
+    padding: 0px 20px 0px 20px;
+    position: relative;
+    top: 4px;
+}
+.subscribe{
+    height: 281px;
+    background-color: #dedede;
+}
+
+.text-heading4{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30px;
+    color:black;
+}
+
+.text-heading4 sup{
+    color:#fc2779;
+}
+.text4{
+    display: flex;
+    justify-content: center;
+}
+
+.subsus{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 0px 0px ;
+}
+.subsus input{
+    border: #dedede;
+    height: 40px;
+    width: 600px;
+    background-color: white;
+    border-radius: 10px;
+    
+}
+.subsus button{
+    border: #141414;
+    background-color: #141414;
+    color: white;
+    width: 130px;
+    position: relative;
+    right: 20px;
+    
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.circle img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-45%);
+    height: 160px;
+    width: 280px; 
+}
+.text5{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px; 
+}
+.text5 h2{
+    color: white;
+}
+
+.final{
+    height: 644px;
+    width: 100%;
+    background-color: black;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+}
+.socials span{
+    position: relative;
+    top: -80px;
+   color: rgb(150,150,150);
+   padding: 20px;
+   font-size: larger;
+   transition: 0.6s;
+   cursor: pointer;
+}
+
+.socials span:hover{
+    font-size: 40px;
+    color: white;
+    
+}
+.line{
+    display: flex;
+    justify-content: center;
+    color: white;
+    position: relative;
+    top: -90px;
+    padding: 20px 0px 0px 0px;
+}
+
+.links{
+    display: flex;
+    justify-content:space-evenly;
+    position: relative;
+    top: -80px;
+}
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    text-decoration: underline;
+}
+.front{
+    display: flex;
+    margin: 0px 0px 120px 120px;
+    color: white;
+    position: relative;
+    top: -80px;
+}
+.foot img{
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
